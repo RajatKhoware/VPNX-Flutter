@@ -5,6 +5,9 @@
 
 <b>Simple, Decent & Free VPN Application based on OpenVPN Protocol.</b></br>
 
+<b>Video(Actual App Even Looks Better 😃):</b></br><br>
+![Untitled video - Made with Clipchamp (1)](https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/f1103de5-4af2-4f1c-a75c-63a5df0f2566)
+
 <b>Some ScreenShots(Actual App Even Looks Better 😃):</b></br><br>
 <kbd>
 <img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/1.png" width=30% height=30%/>
@@ -16,7 +19,7 @@
 </kbd>
 <br>
 <br>
-  
+
  <b>Features👇 : </b>
 <ul>
 <li>Many Free Public Servers (From: https://www.vpngate.net/en/)
