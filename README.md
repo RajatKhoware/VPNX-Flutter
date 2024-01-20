@@ -3,15 +3,7 @@
 ![Dart](https://img.shields.io/badge/dart-100%25-brightgreen)
 ![Flutter](https://img.shields.io/badge/Flutter-Cross%20Platform-blue)
 
-##Note: Google Ads are integrated in the project with firebase for dynamics AD IDs (if you want them to work fine then configure firebase and some changes).
-
-Refer this videos for Firebase & Remote Config Changes for Ads: https://youtu.be/Bx0ixmpHpMI
-https://youtu.be/XkbRhBiSZMU
-
 <b>Simple, Decent & Free VPN Application based on OpenVPN Protocol.</b></br>
-
-<b>Check Youtube Course 👇<b>
-https://youtube.com/playlist?list=PL8kbUJtS6hyal7Uw7wTeYmv7yiNPH5kOq
 
 <b>Some ScreenShots(Actual App Even Looks Better 😃):</b></br><br>
 <kbd>
@@ -38,13 +30,8 @@ https://youtube.com/playlist?list=PL8kbUJtS6hyal7Uw7wTeYmv7yiNPH5kOq
 </ul>
 
 <b>Note:</b> This Project is a built on top of NizVpn Flutter (Show some love to his efforts).
-<br>Github Link: https://github.com/nizwar/nizvpn
-  
-<b>Watch Full Playlist on Youtube:</b>
-  https://youtube.com/playlist?list=PL8kbUJtS6hyal7Uw7wTeYmv7yiNPH5kOq
-<br>
-  
+<br>Github Link: https://github.com/HarshAndroid/FreeVPN-App-Flutter?tab=readme-ov-file
   
 <!--  <b>Note:</b> This Project is Much More Improved (i.e. Contains New Features) & Optimized than Youtube Course Project. -->
-For Feedback or Suggestions Mail Me At rajpurohitharsh2020@gmail.com 🙂
+For Feedback or Suggestions Mail Me At rajatkhoware2002@gmail.com 🙂
 
