@@ -14,41 +14,24 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # Getx for state management
   get: ^4.6.5
-
-  # Cupertino style icons
   cupertino_icons: ^1.0.2
-
-  # For API Call
   http: ^1.0.0
-
-  # Converting CSV data to List
   csv: ^5.0.2
-
-  # For Lottie Animation
   lottie: ^2.3.2
-
-  # For storing data (in local storage)
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-
-  # For integrating ads
-  google_mobile_ads: ^3.0.0
-
-  # For firebase
-  firebase_core: ^2.14.0
-
-  # For Remote Config
-  firebase_remote_config: ^4.2.3
-
   google_fonts: ^4.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  # Change package name
-  # change_app_package_name: ^1.1.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
 
 flutter:
   # Enabling material design
@@ -56,8 +39,8 @@ flutter:
 
   # App assets
   assets:
-    - assets/
     - assets/vpn/
     - assets/images/
     - assets/lottie/
     - assets/flags/
+    - assets/icons/
