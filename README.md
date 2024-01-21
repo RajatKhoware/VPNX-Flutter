@@ -1,21 +1,30 @@
-<b>Simple, Decent & Free VPN Application based on OpenVPN Protocol.</b></br>
+# VPNX
+VPN with OpenVPN Protocol
 
-<b>Video(Actual App Even Looks Better 😃):</b></br><br>
-![Untitled video - Made with Clipchamp (1)](https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/f1103de5-4af2-4f1c-a75c-63a5df0f2566)
+## About
+Working Netfix Clone made using Swift MVVM, Core Data, TMDB movie database API and Youtube API.
 
-<!-- <b>Some ScreenShots(Actual App Even Looks Better 😃):</b></br><br>
-<kbd>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/1.png" width=30% height=30%/>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/2.png" width=30% height=30%/>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/3.png" width=30% height=30%/>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/4.png" width=30% height=30%/>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/5.png" width=30% height=30%/>
-<img src="https://github.com/HarshAndroid/FreeVPN-App-Flutter/blob/master/screenshots/6.png" width=30% height=30%/>
-</kbd>
-<br>
-<br> -->
 
- <b>Features👇 : </b>
+## Screenshots
+
+<div class="row">
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/3d92d923-39fd-434c-877b-ba27fea14c26" width="180" height="340">
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/e24405c9-cd71-4797-9f52-111e8964bdcf" width="180" height="340">
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/8fa06304-4798-426e-b20d-0253e921612a" width="180" height="340">
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/7f9304c5-2052-4239-9b2c-1e3e69f3a85e" width="180" height="340">
+</div>
+
+
+
+## GIF
+
+<div class="row">
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/f1103de5-4af2-4f1c-a75c-63a5df0f2566" width=30% height=30%/>
+ </div>
+
+
+## Features
+
 <ul>
 <li>Many Free Public Servers (From: https://www.vpngate.net/en/)
 <li>Secure OpenVPN Protocol
