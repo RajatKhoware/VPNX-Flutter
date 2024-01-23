@@ -8,10 +8,10 @@ Working Netfix Clone made using Swift MVVM, Core Data, TMDB movie database API a
 ## Screenshots
 
 <div class="row">
-<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/3d92d923-39fd-434c-877b-ba27fea14c26" width="180" height="340">
-<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/e24405c9-cd71-4797-9f52-111e8964bdcf" width="180" height="340">
-<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/8fa06304-4798-426e-b20d-0253e921612a" width="180" height="340">
-<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/7f9304c5-2052-4239-9b2c-1e3e69f3a85e" width="180" height="340">
+<img src="https://github.com/RajatKhoware/RajatKhoware/assets/107408201/7e132b27-bd55-489a-842d-e2aa8d183a7e.png" width="170" height="360">
+<img src="https://github.com/RajatKhoware/RajatKhoware/assets/107408201/afb749d3-27a3-4108-9ac8-375b48ab15b0.png" width="170" height="360">
+<img src="https://github.com/RajatKhoware/RajatKhoware/assets/107408201/0275e0f8-3bec-4b55-a398-4559f1313af0.png" width="170" height="360">
+<img src="https://github.com/RajatKhoware/RajatKhoware/assets/107408201/eb8a0884-cf72-4a5b-8db0-db16dcda0065.png" width="170" height="360">
 </div>
 
 
@@ -19,7 +19,7 @@ Working Netfix Clone made using Swift MVVM, Core Data, TMDB movie database API a
 ## GIF
 
 <div class="row">
-<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/f1103de5-4af2-4f1c-a75c-63a5df0f2566" width=30% height=30%/>
+<img src="https://github.com/RajatKhoware/VPNX-Flutter/assets/107408201/f1103de5-4af2-4f1c-a75c-63a5df0f2566.gif" width="190" height="360"/>
  </div>
 
 
