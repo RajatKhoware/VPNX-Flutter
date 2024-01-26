@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'VPNX',
+      title: 'VPN-X',
       home: SplashScreen(),
       //theme
       themeMode: Pref.isDarkMode ? ThemeMode.dark : ThemeMode.light,

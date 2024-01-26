@@ -9,6 +9,7 @@ import '../../domain/controllers/location_controller.dart';
 import '../../domain/services/vpn_engine.dart';
 import '../../config/helpers/my_text.dart';
 import '../../config/helpers/pref.dart';
+import 'home_screen.dart';
 
 class ServerScreen extends StatelessWidget {
   ServerScreen({super.key});
@@ -49,19 +50,18 @@ class ServerScreen extends StatelessWidget {
                             fontSize: width * 0.045,
                           ),
                           SizedBox(height: height * .02),
-                          SizedBox(
-                            width: width,
-                            height: height * 0.7,
+                          Expanded(
                             child: ListView.builder(
                               itemCount: _controller.vpnList.length,
                               physics: BouncingScrollPhysics(),
                               itemBuilder: (ctx, i) {
                                 final vpn = _controller.vpnList[i];
+                                final img =
+                                    'assets/flags/${vpn.countryShort.toLowerCase()}.png';
                                 return ServerCard(
                                     server: vpn.countryLong,
                                     locations: vpn.numVpnSessions.toString(),
-                                    img:
-                                        'assets/flags/${vpn.countryShort.toLowerCase()}.png',
+                                    img: img,
                                     ms: vpn.ping,
                                     onTap: () {
                                       controller.vpn.value = vpn;
@@ -138,11 +138,11 @@ class CustomAppBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        CircleAvatar(
-          radius: width * 0.06,
-          backgroundColor: Colors.black.withOpacity(0.1),
-          child: InkWell(
-            onTap: () => Navigator.of(context).pop(),
+        InkWell(
+          onTap: () => Navigator.of(context).pop(),
+          child: CircleAvatar(
+            radius: width * 0.06,
+            backgroundColor: Colors.black.withOpacity(0.1),
             child: Icon(
               Icons.arrow_back,
               color: Colors.black,
@@ -156,13 +156,16 @@ class CustomAppBar extends StatelessWidget {
           fontWeight: FontWeight.bold,
           fontSize: width * 0.06,
         ),
-        CircleAvatar(
-          radius: width * 0.06,
-          backgroundColor: Colors.black.withOpacity(0.1),
-          child: Icon(
-            Icons.info_outlined,
-            color: Colors.black,
-            size: width * 0.05,
+        InkWell(
+          onTap: () => Get.to(() => HomeScreen()),
+          child: CircleAvatar(
+            radius: width * 0.06,
+            backgroundColor: Colors.black.withOpacity(0.1),
+            child: Icon(
+              Icons.home_max,
+              color: Colors.black,
+              size: width * 0.05,
+            ),
           ),
         ),
       ],

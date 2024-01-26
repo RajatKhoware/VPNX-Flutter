@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
@@ -128,13 +129,16 @@ class HomeScreen extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        CircleAvatar(
-          radius: width * 0.07,
-          backgroundColor: Color.fromARGB(166, 1, 30, 54),
-          child: Icon(
-            Icons.home_max,
-            color: Colors.white,
-            size: width * 0.07,
+        InkWell(
+          onTap: () => Get.to(() => ServerScreen()),
+          child: CircleAvatar(
+            radius: width * 0.07,
+            backgroundColor: Color.fromARGB(166, 1, 30, 54),
+            child: Icon(
+              CupertinoIcons.globe,
+              color: Colors.white,
+              size: width * 0.07,
+            ),
           ),
         ),
         MyTextPoppines(
@@ -143,11 +147,11 @@ class HomeScreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
           fontSize: width * 0.06,
         ),
-        CircleAvatar(
-          radius: width * 0.07,
-          backgroundColor: Color.fromARGB(166, 1, 30, 54),
-          child: InkWell(
-            onTap: () => Get.to(() => NetworkTestScreen()),
+        InkWell(
+          onTap: () => Get.to(() => NetworkTestScreen()),
+          child: CircleAvatar(
+            radius: width * 0.07,
+            backgroundColor: Color.fromARGB(166, 1, 30, 54),
             child: Icon(
               Icons.info_outlined,
               color: Colors.white,
