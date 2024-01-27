@@ -1,5 +1,6 @@
 # VPNX
 VPN with OpenVPN Protocol
+ <p <a href='https://play.google.com/store/apps/details?id=com.rajatKhoware.masterVpn'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="76"/></a> </p>
 
 ## About
 Working Netfix Clone made using Swift MVVM, Core Data, TMDB movie database API and Youtube API.
